@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: IBMFIRST-iot
+  host: IBMFIRST-iot
+  disk_quota: 1024M
+  services:
+  - IBMFIRST-iot-cloudantNoSQLDB
+  - IBMFIRST-iot-iotf-service
